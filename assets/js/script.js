@@ -1,11 +1,40 @@
 
 //Making mobile nav button works when clicked
+const yearEl = document.querySelector("#year-now");
 const navBar = document.querySelector(".nav");
 const btnNavEl = document.querySelector(".btn-mobile-nav");
 const iconNavEl = document.querySelector(".icon-mobile-nav");
 const windowWidth = window.innerWidth;
 
 let mobileNavClicked = false;
+const currentYear = new Date().getFullYear();
+yearEl.textContent = currentYear
+
+///////////////////////////////////////////////////////////
+// Smooth scrolling animation
+
+const allLinks = document.querySelectorAll("a:link");
+
+allLinks.forEach(function (link) {
+  link.addEventListener("click", function (e) {
+    e.preventDefault();
+    const href = link.getAttribute("href");
+
+    // Scroll back to top
+    if (href === "#")
+      window.scrollTo({
+        top: 0,
+        behavior: "smooth",
+      });
+
+    // Scroll to other links
+    if (href !== "#" && href.startsWith("#")) {
+      const sectionEl = document.querySelector(href);
+      sectionEl.scrollIntoView({block: "center", behavior: "smooth" });
+    }
+
+  });
+});
 
 const addNavClickedClass = [
   "before:-top-1/2",
