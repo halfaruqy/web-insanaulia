@@ -7,7 +7,7 @@
 		$content = get_the_content();
 		$content = str_replace('<p', '<p class="font-medium"', $content); 
 		 ?>
-		 <main class="flex flex-col justify-center items-center min-w-96 max-w-3xl gap-8 mx-auto">
+		 <main class="flex flex-col justify-center items-center min-w-96 max-w-3xl gap-8 mx-auto px-8 md:px-0">
 		 <?php
         $args = array(
           'child_of' => get_top_ancestor_id(),

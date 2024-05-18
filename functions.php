@@ -30,7 +30,7 @@ add_filter('nav_menu_css_class' , 'special_nav_class' , 10 , 2);
 
 function special_current_page_class($classes, $item) {
   if( in_array('current_page_item', $classes)) {
-    $classes[] = 'text-primary-600 hover:text-primary-950';
+    $classes[] = 'text-primary-600 hover:text-primary-950 transition-all';
   }
   return $classes;
 }
@@ -63,3 +63,5 @@ function get_top_ancestor_id() {
 
   return $post->ID;
 }
+
+
