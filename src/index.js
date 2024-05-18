@@ -12,25 +12,25 @@ yearEl.textContent = currentYear
 
 ////////////////////////////
 //Sub Menu Element
-const allSubMenu = document.querySelectorAll(".sub-menu");
-const allMenuHasChildren = document.querySelectorAll(".menu-item-has-children");
+// const allSubMenu = document.querySelectorAll(".sub-menu");
+// const allMenuHasChildren = document.querySelectorAll(".menu-item-has-children");
 
-const menuHasChildrenIndicator = ["after:content-['>']", "after:ml-0.5", "after:text-primary-950", "after:text-sm", "hover:after:rotate-90", "hover:after:text-primary-500","after:transition-all"]
-const subMenuAppear = ["lg:shadow-sm", "lg:flex", "lg:flex-col", "lg:gap-1", "lg:p-2","lg:visible", "lg:opacity-100"]
-const subMenuHidden = ["invisible", "opacity-0"]
+// const menuHasChildrenIndicator = ["after:content-['>']", "after:ml-0.5", "after:text-primary-950", "after:text-sm", "hover:after:rotate-90", "hover:after:text-primary-500","after:transition-all"]
+// const subMenuAppear = ["lg:shadow-sm", "lg:flex", "lg:flex-col", "lg:gap-1", "lg:p-2","lg:visible", "lg:opacity-100"]
+// const subMenuHidden = ["invisible", "opacity-0"]
 
-allMenuHasChildren.forEach((menuHasChildren) => {
-  console.log(menuHasChildren.querySelector(".sub-menu"))
-  menuHasChildren.classList.add(...menuHasChildrenIndicator)
-  menuHasChildren.addEventListener("mouseover", () =>{
-    menuHasChildren.querySelector(".sub-menu").classList.remove(...subMenuHidden)
-    menuHasChildren.querySelector(".sub-menu").classList.add(...subMenuAppear)
-  })
-  menuHasChildren.addEventListener("mouseout", () =>{
-    menuHasChildren.querySelector(".sub-menu").classList.remove(...subMenuAppear)
-    menuHasChildren.querySelector(".sub-menu").classList.add(...subMenuHidden) 
-  })
-})
+// allMenuHasChildren.forEach((menuHasChildren) => {
+//   console.log(menuHasChildren.querySelector(".sub-menu"))
+//   menuHasChildren.classList.add(...menuHasChildrenIndicator)
+//   menuHasChildren.addEventListener("mouseover", () =>{
+//     menuHasChildren.querySelector(".sub-menu").classList.remove(...subMenuHidden)
+//     menuHasChildren.querySelector(".sub-menu").classList.add(...subMenuAppear)
+//   })
+//   menuHasChildren.addEventListener("mouseout", () =>{
+//     menuHasChildren.querySelector(".sub-menu").classList.remove(...subMenuAppear)
+//     menuHasChildren.querySelector(".sub-menu").classList.add(...subMenuHidden) 
+//   })
+// })
 
 ///////////////////////////////////////////////////////////
 // Smooth scrolling animation

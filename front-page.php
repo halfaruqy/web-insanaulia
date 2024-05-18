@@ -48,7 +48,7 @@ get_header(); ?>
       <section class="flex h-max items-center justify-center px-8">
         <article
           id="tentang-kami"
-          class="flex h-max min-w-64 max-w-6xl flex-col items-stretch gap-16 rounded-xl bg-[linear-gradient(to_top,rgba(161,66,11,0.85),rgba(70,26,4,0.85)),url('../img/school/insanaulia-building.jpg')] bg-cover bg-fixed bg-center bg-no-repeat px-4 py-16 text-primary-50 shadow-md lg:flex-row lg:flex-wrap lg:py-8"
+          class="flex h-max min-w-64 max-w-6xl flex-col items-stretch gap-16 rounded-xl bg-[linear-gradient(to_top,rgba(161,66,11,0.85),rgba(70,26,4,0.85)),url('http://insan-aulia.local/wp-content/uploads/2024/05/insanaulia-building-scaled.jpg')] bg-cover bg-fixed bg-center bg-no-repeat px-4 py-16 text-primary-50 shadow-md lg:flex-row lg:flex-wrap lg:py-8"
         >
           <div class="flex w-full items-center gap-4 lg:basis-[45%]">
             <svg
@@ -64,7 +64,7 @@ get_header(); ?>
                 d="M256.26 16c-79.42 0-144 64.59-144 144s64.61 144 144 144 144-64.6 144-144-64.59-144-144-144zm0 224a80 80 0 1180-80 80.1 80.1 0 01-80 80z"
               />
             </svg>
-            <a href="./" class="group flex basis-3/6 flex-col">
+            <a href="https://dapo.kemdikbud.go.id/sekolah/372C69EF7E1A875745CE" class="group flex basis-3/6 flex-col" target="_blank">
               <h2
                 class="font-semibold uppercase transition-all group-hover:text-secondary-600 lg:text-xl"
               >
@@ -94,7 +94,7 @@ get_header(); ?>
                 d="M495.92 190.5v-.11a16 16 0 00-8-12.28l-224-128a16 16 0 00-15.88 0l-224 128a16 16 0 000 27.78l224 128a16 16 0 0015.88 0L461 221.28a2 2 0 013 1.74v144.53c0 8.61 6.62 16 15.23 16.43A16 16 0 00496 368V192a14.76 14.76 0 00-.08-1.5z"
               />
             </svg>
-            <a href="./" class="group flex basis-3/6 flex-col">
+            <a href="https://sekolah.data.kemdikbud.go.id/index.php/Chome/profil/B0DE10BE-5422-E211-8DEE-6D4E15A70DC1" class="group flex basis-3/6 flex-col" target="_blank">
               <h2
                 class="font-semibold uppercase transition-all group-hover:text-secondary-600 lg:text-xl"
               >
@@ -124,7 +124,7 @@ get_header(); ?>
                 d="M400 400a16 16 0 1016 16 16 16 0 00-16-16zM400 320a16 16 0 1016 16 16 16 0 00-16-16zM400 240a16 16 0 1016 16 16 16 0 00-16-16zM336 400a16 16 0 1016 16 16 16 0 00-16-16zM336 320a16 16 0 1016 16 16 16 0 00-16-16zM336 240a16 16 0 1016 16 16 16 0 00-16-16z"
               />
             </svg>
-            <a href="./" class="group flex basis-3/6 flex-col">
+            <a href="./" class="group flex basis-3/6 flex-col" target="_blank">
               <h2
                 class="font-semibold uppercase transition-all group-hover:text-secondary-600 lg:text-xl"
               >
@@ -152,7 +152,7 @@ get_header(); ?>
                 d="M432 64H272V48a16 16 0 00-32 0v16H80a48.05 48.05 0 00-48 48v208a48.05 48.05 0 0048 48h42.79l-26.17 91.6a16 16 0 1030.76 8.8L156.07 368H240v48a16 16 0 0032 0v-48h83.93l28.69 100.4a16 16 0 1030.76-8.8L389.21 368H432a48.05 48.05 0 0048-48V112a48.05 48.05 0 00-48-48zm16 256a16 16 0 01-16 16H80a16 16 0 01-16-16V112a16 16 0 0116-16h352a16 16 0 0116 16z"
               />
             </svg>
-            <a href="./" class="group flex basis-3/6 flex-col">
+            <a href="https://sekolah.data.kemdikbud.go.id/index.php/Chome/profil/B0DE10BE-5422-E211-8DEE-6D4E15A70DC1" class="group flex basis-3/6 flex-col" target="_blank">
               <h2
                 class="font-semibold uppercase transition-all group-hover:text-secondary-600 lg:text-xl"
               >
@@ -166,14 +166,14 @@ get_header(); ?>
             </a>
             <span
               class="flex basis-2/6 justify-center text-xl font-extrabold text-secondary-50 lg:text-[1.75rem] xl:text-3xl"
-              >5000 m<sup class="mt-4">2</sup></span
+              >1584 m<sup class="mt-4">2</sup></span
             >
           </div>
         </article>
       </section>
       <!-- Section: Sambutan -->
       <section
-        class="flex h-max items-center justify-center bg-[linear-gradient(to_top,rgba(161,66,11,0.65),rgba(70,26,4,0.65)),url('../img/school/insanaulia-building-and-student.jpg')] bg-cover bg-fixed bg-center bg-no-repeat px-8 py-16 lg:pt-4">
+        class="flex h-max items-center justify-center bg-[linear-gradient(to_top,rgba(161,66,11,0.65),rgba(70,26,4,0.65)),url('http://insan-aulia.local/wp-content/uploads/2024/05/insanaulia-building-and-student-scaled.jpg')] bg-cover bg-fixed bg-center bg-no-repeat px-8 py-16 lg:pt-4">
         <article
           class="flex max-w-96 flex-col items-center justify-center md:max-w-md lg:max-w-3xl xl:max-w-4xl"
         >
@@ -185,7 +185,7 @@ get_header(); ?>
           >
             <img
               class="h-3/4 w-3/4 max-w-72 rounded-xl object-cover lg:basis-[45%]"
-              src="assets/img/people/school_principal.jpg"
+              src="http://insan-aulia.local/wp-content/uploads/2024/05/school_principal-scaled.jpg"
               alt="School Principal"
             />
             <div

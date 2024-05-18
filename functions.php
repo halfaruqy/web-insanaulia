@@ -21,12 +21,20 @@ function boilerplate_add_support() {
 add_action('after_setup_theme', 'boilerplate_add_support');
 
 function special_nav_class($classes, $item){
-  if( in_array('current-menu-item', $classes) ){
+  if( in_array('current-menu-item', $classes) || in_array('current-page-ancestor', $classes)){
       $classes[] = 'text-primary-600 hover:text-primary-950';
   }
   return $classes;
 }
 add_filter('nav_menu_css_class' , 'special_nav_class' , 10 , 2);
+
+function special_current_page_class($classes, $item) {
+  if( in_array('current_page_item', $classes)) {
+    $classes[] = 'text-primary-600 hover:text-primary-950';
+  }
+  return $classes;
+}
+add_filter( 'page_css_class', 'special_current_page_class', 10, 2 );
 
 function add_menu_link_class( $atts, $item, $args ) {
   if (property_exists($args, 'link_class')) {
@@ -43,3 +51,15 @@ function add_menu_list_item_class($classes, $item, $args) {
   return $classes;
 }
 add_filter('nav_menu_css_class', 'add_menu_list_item_class', 1, 3);
+
+// Get top ancestor
+function get_top_ancestor_id() {
+  global $post;
+
+  if ($post->post_parent) {
+    $ancestors = array_reverse(get_post_ancestors( $post -> ID ));
+    return $ancestors[0];
+  }
+
+  return $post->ID;
+}

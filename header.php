@@ -124,7 +124,7 @@
     </div>
     <!-- Header, containing logo and navigation bar -->
     <header
-      class="sticky top-0 flex h-max w-full items-center justify-center border-b-2 border-y-gray-300 bg-white"
+      class="sticky top-0 flex h-max w-full items-center justify-center border-b-2 shadow-xs bg-white"
     >
       <!-- Container -->
       <div
@@ -150,7 +150,6 @@
               'container' => '',
               'link_class' => '',
               'li_class_0' => 'transition-all hover:text-primary-500 relative cursor-pointer',
-              'submenu_class_0' => 'invisible rounded-xs opacity-0 absolute top-full transition-all w-24 text-left bg-primary-50 border border-primary-950',
               'li_class_1' => 'text-sm text-primary-950 hover:text-primary-500 transition-all'
             ));
           ?>
