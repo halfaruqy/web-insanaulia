@@ -189,25 +189,19 @@ get_header(); ?>
               alt="School Principal"
             />
             <div
-              class="flex flex-col items-center justify-center gap-4 lg:basis-[45%]"
+              class="flex flex-col items-start justify-center gap-4 lg:basis-[45%]"
             >
               <p class="text-primary-50">
-                &#8287; Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                A quibusdam totam quos enim, ipsam laudantium quidem debitis,
-                dolor assumenda ut inventore ipsa dignissimos? Ipsa fuga at
-                rerum corrupti nam sit!
+                &#8287; Assalaamu’alaikum
               </p>
               <p class="text-primary-50">
-                &#8287; Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                A quibusdam totam quos enim, ipsam laudantium quidem debitis,
-                dolor assumenda ut inventore ipsa dignissimos? Ipsa fuga at
-                rerum corrupti nam sit!
+                &#8287; SIT Insan Aulia menerapkan sistem pendidikan terpadu. Terpadu dalam lingkup peran sekolah, keluarga dan lingkungan, mencakup arah kognitif, efektif dan psikomotorik serta memadukan pendidikan umum dengan pesan-pesan dan nilai-nilai keislaman serta mengembangkan kurikulum dengan pendekatan pembelajaran modern seperti pembelajaran aktif, tematik serta Multiple Intelligence.
               </p>
               <p class="text-primary-50">
-                &#8287; Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                A quibusdam totam quos enim, ipsam laudantium quidem debitis,
-                dolor assumenda ut inventore ipsa dignissimos? Ipsa fuga at
-                rerum corrupti nam sit!
+                &#8287; Harapannya kami dapat menjaga amanah dalam mendidik siswa-siswi dengan sebaik-baiknya. Kritik, saran dan masukan orang tua untuk perkembangan SIT Insan Aulia sangat kami nantikan.
+              </p>
+              <p class="text-primary-50">
+                Wassalamu’alaikum
               </p>
             </div>
           </div>
@@ -598,131 +592,45 @@ get_header(); ?>
       <!-- Berita & Kegiatan -->
       <section class="flex h-max flex-col items-center justify-center px-8">
         <h2 class="text-center text-sm">Berita & Kegiatan</h2>
-        <h3 class="mb-8 text-center text-lg font-bold text-primary-800">
-          Update Informasi Sekolah Insan Aulia
+        <h3 class="mb-8 text-center text-lg font-semibold text-primary-800">
+          Update Berita dan Kegiatan Sekolah Insan Aulia
         </h3>
-        <div class="flex flex-wrap items-center justify-center gap-8">
-          <article
-            class="flex max-w-80 flex-col overflow-hidden rounded-md shadow-lg"
-          >
-            <img
-              class="h-40 object-cover object-center"
-              src="assets/img/school/insanaulia-characterbuilding.jpeg"
-              alt="Student activities"
-            />
-            <div class="flex flex-col gap-2">
-              <time
-                class="bg-primary-300 px-4 py-1 font-medium text-primary-700"
-                datetime="5/13/2024"
-                >Senin, 13 Mei 2024</time
-              >
-              <h4 class="mt-4 px-8 font-medium">
-                Mabit kelas 6: Persiapan Menghadapi Ujian Sekolah
-              </h4>
-              <p class="mb-4 px-8">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Architecto, quae sequi iste velit repellat debitis quibusdam
-                quidem repellendus, veniam vitae illum excepturi laudantium
-                deleniti, ea illo ipsa quis dolor quaerat.
-              </p>
-            </div>
-            <a
-              class="group border-t px-8 py-2 font-bold underline transition duration-150 ease-in-out hover:bg-primary-100 hover:text-primary-700"
-              href="#"
-              >Baca Lebih Lanjut >></a
-            >
-          </article>
-          <article
-            class="flex max-w-80 flex-col overflow-hidden rounded-md shadow-lg"
-          >
-            <img
-              class="h-40 object-cover object-center"
-              src="assets/img/school/insanaulia-characterbuilding.jpeg"
-              alt="Student activities"
-            />
-            <div class="flex flex-col gap-2">
-              <time
-                class="bg-primary-300 px-4 py-1 font-medium text-primary-700"
-                datetime="5/13/2024"
-                >Senin, 13 Mei 2024</time
-              >
-              <h4 class="mt-4 px-8 font-medium">
-                Mabit kelas 6: Persiapan Menghadapi Ujian Sekolah
-              </h4>
-              <p class="mb-4 px-8">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Architecto, quae sequi iste velit repellat debitis quibusdam
-                quidem repellendus, veniam vitae illum excepturi laudantium
-                deleniti, ea illo ipsa quis dolor quaerat.
-              </p>
-            </div>
-            <a
-              class="group border-t px-8 py-2 font-bold underline transition duration-150 ease-in-out hover:bg-primary-100 hover:text-primary-700"
-              href="#"
-              >Baca Lebih Lanjut >></a
-            >
-          </article>
-          <article
-            class="flex max-w-80 flex-col overflow-hidden rounded-md shadow-lg"
-          >
-            <img
-              class="h-40 object-cover object-center"
-              src="assets/img/school/insanaulia-characterbuilding.jpeg"
-              alt="Student activities"
-            />
-            <div class="flex flex-col gap-2">
-              <time
-                class="bg-primary-300 px-4 py-1 font-medium text-primary-700"
-                datetime="5/13/2024"
-                >Senin, 13 Mei 2024</time
-              >
-              <h4 class="mt-4 px-8 font-medium">
-                Mabit kelas 6: Persiapan Menghadapi Ujian Sekolah
-              </h4>
-              <p class="mb-4 px-8">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Architecto, quae sequi iste velit repellat debitis quibusdam
-                quidem repellendus, veniam vitae illum excepturi laudantium
-                deleniti, ea illo ipsa quis dolor quaerat.
-              </p>
-            </div>
-            <a
-              class="group border-t px-8 py-2 font-bold underline transition duration-150 ease-in-out hover:bg-primary-100 hover:text-primary-700"
-              href="#"
-              >Baca Lebih Lanjut >></a
-            >
-          </article>
-          <article
-            class="flex max-w-80 flex-col overflow-hidden rounded-md shadow-lg"
-          >
-            <img
-              class="h-40 object-cover object-center"
-              src="assets/img/school/insanaulia-characterbuilding.jpeg"
-              alt="Student activities"
-            />
-            <div class="flex flex-col gap-2">
-              <time
-                class="bg-primary-300 px-4 py-1 font-medium text-primary-700"
-                datetime="5/13/2024"
-                >Senin, 13 Mei 2024</time
-              >
-              <h4 class="mt-4 px-8 font-medium">
-                Mabit kelas 6: Persiapan Menghadapi Ujian Sekolah
-              </h4>
-              <p class="mb-4 px-8">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Architecto, quae sequi iste velit repellat debitis quibusdam
-                quidem repellendus, veniam vitae illum excepturi laudantium
-                deleniti, ea illo ipsa quis dolor quaerat.
-              </p>
-            </div>
-            <a
-              class="group border-t px-8 py-2 font-bold underline transition duration-150 ease-in-out hover:bg-primary-100 hover:text-primary-700"
-              href="#"
-              >Baca Lebih Lanjut >></a
-            >
-          </article>
+        <div class="flex flex-wrap items-stretch justify-center gap-8">
+          <?php 
+            $homepageEvents = new WP_Query(array(
+              'posts_per_page' => 3,
+              'post_type' => 'event'
+            ));
+
+            while($homepageEvents->have_posts(  )) {
+              $homepageEvents->the_post(  ); ?>
+              <article
+                class="flex max-w-80 flex-col overflow-hidden rounded-md shadow-lg min-h-full">
+                <?php the_post_thumbnail('single-post-thumbnail', ['class'=> 'h-40 object-cover object-center']); ?>
+                <div class="flex flex-col gap-2 grow">
+                  <time
+                    class="bg-primary-300 px-4 py-1 font-medium text-primary-700"
+                    datetime="<?php the_time('Y-f-d'); ?>"
+                    ><?php the_time('D, d F Y'); ?></time
+                  >
+                  <a href="<?php the_permalink( ); ?>">
+                    <h4 class="mt-4 px-8 font-bold">
+                      <?php the_title(); ?>
+                    </h4>
+                  </a>
+                  <p class="mb-4 px-8">
+                    <?php echo wp_trim_words( get_the_content(), 20) ?>
+                  </p>
+                </div>
+                <a class="group border-t px-8 py-2 font-medium underline transition duration-150 ease-in-out hover:bg-primary-100 hover:text-primary-700" href="<?php the_permalink( ); ?>">
+                    Lanjut membaca &raquo;
+                </a>
+              </article>
+            <?php }
+          ?>
+          
         </div>
+
       </section>
     </main>
 

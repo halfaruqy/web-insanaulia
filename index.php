@@ -57,7 +57,7 @@
               <?php the_title(); ?>
             </a>
           </h2>
-          <span class="flex gap-1 py-1 px-4 text-xs text-primary-900 bg-primary-100 w-1/2 border border-primary-200">
+          <span class="flex gap-1 py-1 px-4 text-xs text-primary-900 bg-primary-100 w-2/3 md:w-1/2 border border-primary-200">
             Posted by <div class="capitalize font-semibold"><?php the_author_posts_link(); ?></div> on <?php the_time('D, d F Y'); ?>
           </span>
           <p class="flex flex-col gap-2">
